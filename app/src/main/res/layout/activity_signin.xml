@@ -75,7 +75,7 @@
             android:layout_marginTop="30dp"
             android:background="#000"
             android:textColor="#000"
-            android:backgroundTint="#3453"
+            android:backgroundTint="#33F40505"
             android:id="@+id/signinBtn" />
 
         <TextView
