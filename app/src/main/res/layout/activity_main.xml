@@ -32,8 +32,9 @@
             android:id="@+id/signupBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
+            android:layout_marginLeft="4dp"
             android:layout_marginTop="8dp"
+            android:layout_weight="1"
             android:backgroundTint="#E91E63"
             android:padding="10dp"
             android:text="🤷‍♀️ Signup"
@@ -44,12 +45,27 @@
             android:id="@+id/signinBtn"
             android:layout_width="136dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
+            android:layout_marginLeft="4dp"
             android:layout_marginTop="8dp"
             android:backgroundTint="#2742DB"
             android:padding="10dp"
             android:text="👮Signin"
             android:textColor="#F61900"
+            android:layout_weight="1"
+            android:textSize="25dp" />
+
+
+        <Button
+            android:id="@+id/AboutBtn"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#2742DB"
+            android:padding="10dp"
+            android:text="🛤️About📜"
+            android:textColor="#F61900"
+            android:layout_weight="1"
             android:textSize="25dp" />
 
         <TextView

@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(applicationContext, Signin::class.java)
             startActivity(intent)
         }
-        //Refresh theactivity
+        //Refresh the activity
 
         // find the recyclerView and the progress bar by use of their IDs
         val recyclerView = findViewById<RecyclerView>(R.id.recycleView)
